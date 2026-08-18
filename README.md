@@ -1,16 +1,26 @@
-## Hi there 👋
+# Autonomous Data Systems & Pipeline Engineer
 
-<!--
-**denham-tech/denham-tech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build high-throughput data extraction engines, dynamic web automation crawlers, and automated ETL pipelines to convert complex web architectures into persistent relational databases.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Technical Capabilities & Engineering Stack
+
+* **Data Engineering & Automation**: Python, Playwright (Headless Browser Automation), BeautifulSoup4, Requests, Regex
+* **Data Processing & Analytics**: Pandas, NumPy, Vectorized Transformations
+* **Relational Persistence & Auditing**: SQLite, PostgreSQL, Advanced SQL Aggregations & Analytical Window Functions
+* **Architecture**: Headless Browser Orchestration, Dynamic SPA Scraping, Flat-File Audit Generation
+
+---
+
+### Featured Production Asset
+
+* **[Enterprise Multi-Source ETL & Dynamic Web Automation Engine](https://github.com/denham-tech/automated-data-engine)**
+  * Full-stack data infrastructure handling multi-page pagination, headless Chromium rendering, schema normalization, and automated executive CSV audit exports.
+
+---
+
+### Core Engineering Focus
+* Zero-maintenance, scheduled data ingestion pipelines.
+* Extracting unstructured DOM elements and single-page applications (SPAs) into relational databases.
+* Delivering audit-ready datasets and automated market intelligence.
