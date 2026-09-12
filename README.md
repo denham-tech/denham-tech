@@ -1,25 +1,23 @@
-# Denham Tech | Autonomous Data Systems & ETL Engineering
+# Denham Tech
 
-Specialized data engineering infrastructure designed for high-velocity e-commerce brands and marketing agencies. Delivering headless extraction, automated relational delta audits, schema validation, and priority telemetry feeds.
+Data pipeline engineering and headless extraction systems for e-commerce catalogs.
+
+Specialized in deterministic schema validation, scheduled snapshot ingestion, relational delta computing, and event-driven alerting feeds for retail storefronts.
 
 ---
 
-### Core Infrastructure Stack
+### Core Repositories & Modules
 
-| Engine | Primary Function | Tech Stack |
+| Repository | Focus | Tech Stack |
 | :--- | :--- | :--- |
-| **`automated-data-engine`** | Headless pagination & catalog ingestion | Python, Playwright, SQLite |
-| **`ecommerce-delta-engine`** | Snapshot diffing, competitor price drops & stockouts | Python, Pandas, SQLite |
-| **`catalog-validation-sentinel`** | Deterministic schema assertions & hygiene scoring | Python, Pandas, JSON |
-| **`autonomous-pipeline-coordinator`** | End-to-end lifecycle orchestration & audit logging | Python, SQLite, Cron |
-| **`ecom-telemetry-alerts`** | Multi-channel anomaly payload routing | Python, Webhooks |
+| **[catalog-validation-sentinel](https://github.com/denham-tech/catalog-validation-sentinel)** | CLI data quality validator enforcing schema conformity, duplicate variant detection, and hygiene scoring. | Python, Pandas, Pytest |
+| **[ecommerce-delta-engine](https://github.com/denham-tech/ecommerce-delta-engine)** | Relational snapshot diffing engine isolating SKU additions, delistings, price adjustments, and stockouts. | Python, Pandas, SQLite |
+| **[automated-data-engine](https://github.com/denham-tech/automated-data-engine)** | Headless catalog scraper extracting paginated storefront inventories into structured relational feeds. | Python, Requests/HTTP, SQLite |
+| **[ecom-telemetry-alerts](https://github.com/denham-tech/ecom-telemetry-alerts)** | Webhook routing module pushing catalog change payloads and error telemetry to operational channels. | Python, Webhooks/JSON |
 
 ---
 
-### Technical Capabilities
-- **Unattended Crawl Lifecycles:** Dynamic DOM rendering, anti-detection handling, and structured pagination.
-- **Relational Data Hygiene:** Automated schema assertions, boundary condition monitoring, and quality gating.
-- **Continuous Monitoring:** Relational delta detection, automated alert dispatching, and scheduled data feeds.
-
----
-*Direct technical inquiries & agency architecture audits: denhampwamurram073@gmail.com*
+### Architecture Standards
+- **Relational Integrity:** Schema assertions prior to warehouse ingestion.
+- **Deterministic Diffing:** Primary-key-based outer merges for catalog state tracking.
+- **Configurable CLI & Logging:** Standard library logging, parameterized execution, and discrete test suites.
