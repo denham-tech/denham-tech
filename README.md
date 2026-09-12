@@ -1,26 +1,25 @@
-# Autonomous Data Systems & Pipeline Engineer
+# Denham Tech | Autonomous Data Systems & ETL Engineering
 
-I build high-throughput data extraction engines, dynamic web automation crawlers, and automated ETL pipelines to convert complex web architectures into persistent relational databases.
-
----
-
-### Technical Capabilities & Engineering Stack
-
-* **Data Engineering & Automation**: Python, Playwright (Headless Browser Automation), BeautifulSoup4, Requests, Regex
-* **Data Processing & Analytics**: Pandas, NumPy, Vectorized Transformations
-* **Relational Persistence & Auditing**: SQLite, PostgreSQL, Advanced SQL Aggregations & Analytical Window Functions
-* **Architecture**: Headless Browser Orchestration, Dynamic SPA Scraping, Flat-File Audit Generation
+Specialized data engineering infrastructure designed for high-velocity e-commerce brands and marketing agencies. Delivering headless extraction, automated relational delta audits, schema validation, and priority telemetry feeds.
 
 ---
 
-### Featured Production Asset
+### Core Infrastructure Stack
 
-* **[Enterprise Multi-Source ETL & Dynamic Web Automation Engine](https://github.com/denham-tech/automated-data-engine)**
-  * Full-stack data infrastructure handling multi-page pagination, headless Chromium rendering, schema normalization, and automated executive CSV audit exports.
+| Engine | Primary Function | Tech Stack |
+| :--- | :--- | :--- |
+| **`automated-data-engine`** | Headless pagination & catalog ingestion | Python, Playwright, SQLite |
+| **`ecommerce-delta-engine`** | Snapshot diffing, competitor price drops & stockouts | Python, Pandas, SQLite |
+| **`catalog-validation-sentinel`** | Deterministic schema assertions & hygiene scoring | Python, Pandas, JSON |
+| **`autonomous-pipeline-coordinator`** | End-to-end lifecycle orchestration & audit logging | Python, SQLite, Cron |
+| **`ecom-telemetry-alerts`** | Multi-channel anomaly payload routing | Python, Webhooks |
 
 ---
 
-### Core Engineering Focus
-* Zero-maintenance, scheduled data ingestion pipelines.
-* Extracting unstructured DOM elements and single-page applications (SPAs) into relational databases.
-* Delivering audit-ready datasets and automated market intelligence.
+### Technical Capabilities
+- **Unattended Crawl Lifecycles:** Dynamic DOM rendering, anti-detection handling, and structured pagination.
+- **Relational Data Hygiene:** Automated schema assertions, boundary condition monitoring, and quality gating.
+- **Continuous Monitoring:** Relational delta detection, automated alert dispatching, and scheduled data feeds.
+
+---
+*Direct technical inquiries & agency architecture audits: denhampwamurram073@gmail.com*
